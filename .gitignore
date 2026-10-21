@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+0.utf
+*.exe
+saves/
+umineko-cn-backup-*/
+.umineko-cn-install.json
+*.tmp

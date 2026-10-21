@@ -1,0 +1,58 @@
+{
+  "version": "0.1.0",
+  "steamAppId": 406550,
+  "platform": "Windows",
+  "baseScriptSha256": "9ef6a9f08b03eac8ef24ceb839f0083c2739dbb403d2fde33f838b994298f937",
+  "patchedScriptSha256": "ef110ab517db9f05392189774fa50e7e032197957529057d6f954a34e0350b02",
+  "baseScriptBytes": 12023578,
+  "patchedScriptBytes": 12387751,
+  "executableSha256": "b9223161d5d2b564da45b614d7b6442d2bd468af5ed0aaf9131c81a9bfe4d0c3",
+  "deltaSha256": "215567e7b265b317c687ad39827565be07f1d8eb4a066d42bb728fcb52f5cee0",
+  "deltaBytes": 1748931,
+  "deltaOperations": 40171,
+  "translationSource": "https://github.com/Umineko-Project-CN/umineko-scripting",
+  "translationRevision": "162a77eb764f181236b8044d1f75a93458ea4937",
+  "translationBranch": "cn_staging",
+  "fonts": [
+    {
+      "file": "NotoSansCJKjp-Regular.otf",
+      "sha256": "f18253affd968c8ea592d8df6d84b1d4c5d3a46d267e53a1f6749e6c4f76a23d",
+      "bytes": 16427228,
+      "version": [
+        "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406"
+      ],
+      "copyright": [
+        "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/)."
+      ],
+      "source": "https://github.com/notofonts/noto-cjk/blob/f36eda03dfa5582a6d49abbfb5c83d0209584158/NotoSansCJKjp-Regular.otf"
+    },
+    {
+      "file": "NotoSansCJKjp-Bold.otf",
+      "sha256": "9ca911f033c616162bc2d2f1d61c6739df8bc7a9bd027df0ed57c96029b33a7a",
+      "bytes": 16998140,
+      "version": [
+        "Version 1.004;PS 1.004;hotconv 1.0.82;makeotf.lib2.5.63406"
+      ],
+      "copyright": [
+        "Copyright © 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/)."
+      ],
+      "source": "https://github.com/notofonts/noto-cjk/blob/f36eda03dfa5582a6d49abbfb5c83d0209584158/NotoSansCJKjp-Bold.otf"
+    }
+  ],
+  "scope": {
+    "dialogueRows": 40167,
+    "visibleSpans": 67506,
+    "episodes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "teaParties": true,
+    "hiddenTeaParties": true,
+    "steamOnlySupplementalSpans": 2,
+    "menusTranslated": false,
+    "profilesTranslated": false,
+    "imageTextTranslated": false
+  }
+}
