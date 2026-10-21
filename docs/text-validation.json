@@ -1,0 +1,64 @@
+{
+  "engine": "Steam Windows Umineko1to4.exe",
+  "dialogue_rows_executed": 40167,
+  "scope": "isolated text harness; same original executable, Chinese fonts, window dimensions, pauses/page handler and final text. Story event commands and delays skipped in harness. Not a complete interactive playthrough.",
+  "text_run": {
+    "Finished": true,
+    "ExitCode": 0,
+    "Completed": true
+  },
+  "snapshot_checkpoints_reached": 55,
+  "font_coverage": {
+    "face0.otf": {
+      "family": [
+        "Noto Sans CJK JP",
+        "Regular"
+      ],
+      "characters_checked": 3557,
+      "missing": []
+    },
+    "face1.otf": {
+      "family": [
+        "Noto Sans CJK JP",
+        "Bold"
+      ],
+      "characters_checked": 3557,
+      "missing": []
+    },
+    "face2.otf": {
+      "family": [
+        "Noto Sans CJK JP",
+        "Bold"
+      ],
+      "characters_checked": 3557,
+      "missing": []
+    },
+    "face3.otf": {
+      "family": [
+        "Noto Sans CJK JP",
+        "Bold"
+      ],
+      "characters_checked": 3557,
+      "missing": []
+    }
+  },
+  "color_supplement_test": {
+    "ExitCode": 0,
+    "Screenshot": true
+  },
+  "red_truth_lines_preserved": 238,
+  "blue_truth_lines_preserved": 121,
+  "missing_color_lines": [],
+  "errors_in_logs": false,
+  "visually_inspected_lines": [
+    3428,
+    16822,
+    73929,
+    133792,
+    205808
+  ],
+  "final_patch_sha256": "ef110ab517db9f05392189774fa50e7e032197957529057d6f954a34e0350b02",
+  "runtime_note": "All 40,167 dialogue rows passed in the text run. The sole later change, restoring red formatting on line 133792, passed a separate final-script test.",
+  "user_save_files_unchanged": true,
+  "old_save_load_steam_cloud_achievement_testing": "not performed"
+}

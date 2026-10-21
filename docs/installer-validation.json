@@ -1,0 +1,17 @@
+{
+  "platform": "Windows PowerShell 5.1",
+  "passed": 10,
+  "cases": [
+    "install_from_original_with_unicode_and_spaces",
+    "verify_installed_payload",
+    "repeat_install_is_noop",
+    "restore_existing_files_and_remove_only_new_fonts_preserves_saves",
+    "reinstall_after_restore",
+    "reject_unknown_script_without_changes",
+    "refuse_restore_over_later_changes",
+    "reject_damaged_backup_before_modifying_files",
+    "reject_damaged_package_without_changes",
+    "recover_after_write_failure"
+  ],
+  "scope": "Installer exercised against copies of the real Steam script/executable with sentinel original fonts and saves; no interactive story gameplay."
+}
